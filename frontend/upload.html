@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📤 Upload Notes</h1>
+</header>
+
+<div class="form-box">
+
+    <h2>Upload Your Notes</h2>
+
+    <form id="uploadForm">
+
+        <label>Note Name</label>
+
+        <input type="text"
+               id="noteName"
+               placeholder="Enter note name">
+
+
+        <label>Subject</label>
+
+        <select id="subject">
+
+            <option value="">Select Subject</option>
+
+            <option>C Programming</option>
+
+            <option>Mathematics</option>
+
+            <option>Physics</option>
+
+            <option>Chemistry</option>
+
+            <option>Data Structures</option>
+
+        </select>
+
+
+        <label>Choose File</label>
+
+        <input type="file" id="noteFile">
+
+
+        <button type="submit">
+            Upload Notes
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

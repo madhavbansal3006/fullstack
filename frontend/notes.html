@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📚 Available Notes</h1>
+</header>
+
+<div class="search-box">
+
+    <h2>Search Notes</h2>
+
+    <input type="text"
+           id="searchInput"
+           placeholder="Search by subject">
+
+    <button onclick="searchNotes()">
+        Search
+    </button>
+
+</div>
+
+
+<div id="notesContainer">
+
+    <div class="note-card">
+
+        <h3>C Programming Notes</h3>
+
+        <p>Subject: C Programming</p>
+
+        <p>Unit 1 Notes</p>
+
+        <button onclick="downloadNote()">
+            Download
+        </button>
+
+    </div>
+
+
+    <div class="note-card">
+
+        <h3>Mathematics Notes</h3>
+
+        <p>Subject: Mathematics</p>
+
+        <p>Unit 1 - Matrices</p>
+
+        <button onclick="downloadNote()">
+            Download
+        </button>
+
+    </div>
+
+
+    <div class="note-card">
+
+        <h3>Physics Notes</h3>
+
+        <p>Subject: Physics</p>
+
+        <p>Unit 1 Notes</p>
+
+        <button onclick="downloadNote()">
+            Download
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
